@@ -1,0 +1,100 @@
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello,Java");
+        System.out.println("Welcome to programming");
+        System.out.println("My journey starts today");
+    }
+}
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter college name:");
+        String college = sc.nextLine();
+
+        System.out.println("Enter Department:");
+        String dept = sc.nextLine();
+
+        System.out.println("Enter course name:");
+        String course = sc.nextLine();
+
+        System.out.println("College: " + college);
+        System.out.println("Department: " + dept);
+        System.out.println("Course: " + course);
+
+        
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String patientName = sc.nextLine();
+        int patientId = sc.nextInt();
+        int age = sc.nextInt();
+        double bodyTemperature = sc.nextDouble();
+        boolean admittedStatus = sc.nextBoolean();
+
+        System.out.println("HOSPITAL PATIENT RECORD");
+        System.out.println("Patient Name: " + patientName);
+        System.out.println("Patient ID: " + patientId);
+        System.out.println("Age: " + age);
+        System.out.println("Body Temperature: " + bodyTemperature);
+        System.out.println("Admitted Status: " + admittedStatus);
+
+        sc.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String name = sc.nextLine();
+        String address = sc.nextLine();
+        String city = sc.nextLine();
+        int pinCode = sc.nextInt();
+        boolean deliveryPreference = sc.nextBoolean();
+
+        System.out.println("DELIVERY DETAILS");
+        System.out.println("Name: " + name);
+        System.out.println("Address: " + address);
+        System.out.println("City: " + city);
+        System.out.println("PIN Code: " + pinCode);
+        System.out.println("Delivery Preference: " + deliveryPreference);
+
+        sc.close();
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String customer = sc.nextLine();
+        String movie = sc.nextLine();
+        int tickets = sc.nextInt();
+        double ticketPrice = sc.nextDouble();
+
+        System.out.println("BOOKING SUMMARY");
+        System.out.println("Customer: " + customer);
+        System.out.println("Movie: " + movie);
+        System.out.println("Tickets: " + tickets);
+        System.out.println("Ticket Price: " + ticketPrice);
+
+        sc.close();
+    }
+}
